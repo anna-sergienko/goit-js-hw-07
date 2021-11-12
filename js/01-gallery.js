@@ -31,13 +31,6 @@ function createImgCard(galleryItems) {
     
 };
 
-imgContainer.addEventListener("click", event => {
-  event.preventDefault();
-
-  if (event.target.nodeName !== "IMG") {
-    return;
-  }
-})
 
 let currentIndex = 0;
 
