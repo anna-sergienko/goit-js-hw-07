@@ -37,12 +37,12 @@ let currentIndex = 0;
 const options = {
     onShow: (instance) => {
         window.addEventListener("keydown", pressEsc);
-        console.log("add");
+        
     },
 
     onClose: (instance) => {
         window.removeEventListener("keydown", pressEsc);
-        console.log("remove");
+       
     }
 
 }
